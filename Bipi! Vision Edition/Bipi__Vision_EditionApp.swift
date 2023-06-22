@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Bipi__Vision_EditionApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+        var body: some Scene {
+            WindowGroup {
+                ContentView()
+                    .frame(
+                        minWidth: 100, maxWidth: 400,
+                        minHeight: 100, maxHeight: 400)
+            }
+            .windowStyle(.plain)
         }
     }
-}

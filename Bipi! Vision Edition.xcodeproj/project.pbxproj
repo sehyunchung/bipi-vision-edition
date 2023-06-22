@@ -13,6 +13,7 @@
 		CC0BB1302A4468DF0014D696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0BB12F2A4468DF0014D696 /* Assets.xcassets */; };
 		CC0BB1332A4468DF0014D696 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0BB1322A4468DF0014D696 /* Preview Assets.xcassets */; };
 		CC0BB13D2A4468DF0014D696 /* Bipi__Vision_EditionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0BB13C2A4468DF0014D696 /* Bipi__Vision_EditionTests.swift */; };
+		CC0BB1472A44696F0014D696 /* BpmTapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0BB1462A44696F0014D696 /* BpmTapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		CC0BB1322A4468DF0014D696 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC0BB1382A4468DF0014D696 /* Bipi! Vision EditionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bipi! Vision EditionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0BB13C2A4468DF0014D696 /* Bipi__Vision_EditionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bipi__Vision_EditionTests.swift; sourceTree = "<group>"; };
+		CC0BB1462A44696F0014D696 /* BpmTapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpmTapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				CC0BB12B2A4468DE0014D696 /* Bipi__Vision_EditionApp.swift */,
 				CC0BB12D2A4468DE0014D696 /* ContentView.swift */,
+				CC0BB1462A44696F0014D696 /* BpmTapper.swift */,
 				CC0BB12F2A4468DF0014D696 /* Assets.xcassets */,
 				CC0BB1312A4468DF0014D696 /* Preview Content */,
 			);
@@ -214,6 +217,7 @@
 			files = (
 				CC0BB12E2A4468DE0014D696 /* ContentView.swift in Sources */,
 				CC0BB12C2A4468DE0014D696 /* Bipi__Vision_EditionApp.swift in Sources */,
+				CC0BB1472A44696F0014D696 /* BpmTapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
